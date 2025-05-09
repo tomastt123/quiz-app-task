@@ -1,0 +1,27 @@
+[
+    {
+      "minCorrect": 0,
+      "maxCorrect": 2,
+      "title": "Needs Improvement",
+      "description": "You got fewer than 3 questions right. Keep studying and try again!"
+    },
+    {
+      "minCorrect": 3,
+      "maxCorrect": 3,
+      "title": "Great Job!",
+      "description": "You answered most questions correctly — well done!"
+    },
+    {
+      "minCorrect": 4,
+      "maxCorrect": 4,
+      "title": "Wonderful!",
+      "description": "You answered almost every question correctly - great job!"
+    },
+    {
+      "minCorrect": 5,
+      "maxCorrect": 5,
+      "title": "Perfect!",
+      "description": "You answered all questions correctly!"
+    }
+  ]
+  

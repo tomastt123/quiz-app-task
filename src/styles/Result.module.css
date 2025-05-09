@@ -1,0 +1,44 @@
+.container {
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+    line-height: 1.4;
+  }
+  
+  .score {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .restart {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .restart:hover {
+    background: #0056b3;
+  }
+  

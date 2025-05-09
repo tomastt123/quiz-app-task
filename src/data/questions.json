@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "text": "What is the capital of France?",
+    "options": ["Berlin", "Madrid", "Paris", "Rome"],
+    "correctIndex": 2,
+    "image": "quizimage1.webp"
+  },
+  {
+    "id": 2,
+    "text": "Which element has the chemical symbol 'O'?",
+    "options": ["Gold", "Oxygen", "Silver", "Iron"],
+    "correctIndex": 1,
+    "image": "quizimage2.jpg"
+  },
+  {
+    "id": 3,
+    "text": "What year did the first man land on the Moon?",
+    "options": ["1965", "1969", "1972", "1959"],
+    "correctIndex": 1,
+    "image": "quizimage3.jpg"
+  },
+  {
+    "id": 4,
+    "text": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correctIndex": 1,
+    "image": "quizimage4.jpg"
+  },
+  {
+    "id": 5,
+    "text": "What is the largest mammal?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    "correctIndex": 1,
+    "image": "quizimage5.avif"
+  }
+]
