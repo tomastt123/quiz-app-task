@@ -1,3 +1,20 @@
+# Bored Panda Quiz task app
+
+I built the quiz as a simple React single-page app using Create React App, React Router for navigation, and CSS Modules for scoped styling. All questions and result buckets live in plain JSON files, and I created three pages—Intro, Quiz, and Result—each as its own component. In the Quiz page I track question index and correct-answer count in state, render one question (with its image) at a time. When the user finishes, we navigate to the Result page, look up their performance against our result definitions, and display the appropriate message. Finally, I added a Netlify redirect so client-side routes load correctly, and the code is ready to push to GitHub and deploy.
+
+
+## A list of tasks to be undertaken after proof-of-concept, along with time estimates:
+
+After the POC, I’d spend about 4 hrs polishing the UI and making it fully responsive, then 2 hrs on accessibility (keyboard support, ARIA labels, contrast). Next, I’d allocate 3 hrs to centralize state management and persist progress in localStorage, and about 5 hrs to build a lightweight Node/Express backend with a simple database for question storage. I’d set aside 2 hrs for input validation and error handling, and 5 hrs for automated testing (unit tests for scoring logic plus end-to-end flow tests). Performance optimizations (code splitting, lazy loading, image compression) would take 2 hrs, while SEO and metadata setup (meta tags, Open Graph) would need 1 hr. Analytics and monitoring (e.g. Google Analytics, Sentry) would be another 1 hr, CI/CD pipeline configuration with GitHub Actions and auto-deploys 2 hrs, documentation and README updates 1.5 hrs, and final deployment with custom domain and SSL 1.5 hrs—about 30 hrs total.
+
+## Your reflection on the test task and your experience performing it: 
+
+A very simple task, but fun to do nonetheless.
+
+## Live version
+
+Netlify - https://bpandatask.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
